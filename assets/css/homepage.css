@@ -1,4 +1,29 @@
+@font-face {
+    font-family: "Buroto";
+    src: url(../font/BUROTO/BurotoRegular.ttf);
+}
+
 *{
     margin:0;
     padding:0;
+}
+
+header{
+    background-color: #245C81;
+}
+
+#picture img{
+    width:100%;
+    height:auto;
+}
+
+#picture{
+    position: relative;
+}
+
+#title{
+    position: absolute;
+    width: 50%;
+    height:auto;
+    font-family: "Buroto";
 }
