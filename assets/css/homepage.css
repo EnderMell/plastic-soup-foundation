@@ -13,7 +13,7 @@ header{
 }
 
 #picture img{
-    width:100%;
+    width:100px;
     height:auto;
 }
 
@@ -24,6 +24,7 @@ header{
 #title{
     position: absolute;
     width: 50%;
+    color:white;
     height:auto;
     font-family: "Buroto";
 }
