@@ -7,7 +7,25 @@
     margin:0;
     padding:0;
 }
-
+header{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+header a{
+    text-decoration: none;
+}
+#home{
+    color: white;
+    font-family: "Buroto";
+    margin-right: 20px;
+    border-bottom: solid white;
+}
+#info{
+    color: white;
+    font-family: "Buroto";
+    border-bottom: solid white;
+}
 #picture{
     position: relative;
     background: url(../img/Clownfish.jpg);
@@ -79,5 +97,24 @@
     }
     .plasticsouplink{
         margin-left: 65px;
+    }
+    header{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    header a{
+        text-decoration: none;
+    }
+    #home{
+        color: white;
+        font-family: "Buroto";
+        margin-right: 20px;
+        border-bottom: solid white;
+    }
+    #info{
+        color: white;
+        font-family: "Buroto";
+        border-bottom: solid white;
     }
   }
