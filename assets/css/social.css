@@ -35,11 +35,36 @@ header a{
     background-repeat: no-repeat;
     height: 100vh;
 }
+#container{
+    border: solid white;
+    height: 300px;
+    width: auto;
+    padding-left: 7%;
+    padding-right: 5%;
+    margin-top: 225px;
+}
+#content{
+    border: solid white;
+    max-width: 400px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.logo{
+    height: 100px;
+    width: auto;
+    margin-right: 8px;
+}
+.logo img{
+    height: 100px;
+}
 #title{
     position: absolute;
     width: 340px;
-    padding-left: 5%;
+    padding-left: 60%;
     color:white;
     height:auto;
     font-family: "Buroto";
@@ -49,7 +74,8 @@ header a{
 @media only screen and (max-width: 600px) {
     #title{
         position: absolute;
-        width: 340px;
+        max-width: 340px;
+        width: 100%;
         padding-left: 5%;
         color:white;
         height:auto;
@@ -65,7 +91,8 @@ header a{
     }
     #content{
         /* border: solid white; */
-        width: auto;
+        max-width: 400px;
+        width: 100%;
         height: 250px;
         display: flex;
         flex-direction: row;
@@ -81,7 +108,8 @@ header a{
     }
     .link{
         height: 100px;
-        width: 100px;
+        max-width: 100px;
+        width: 100%;
         color: white;
         font: bold;
         font-family: "Buroto";
