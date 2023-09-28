@@ -44,7 +44,7 @@
     font-size: 20px;
 }
 
-#title h2:hover{
+.color-animation:hover{
     color:#80DDEF;
     transition:0.3s;
 }
@@ -67,8 +67,7 @@
 }
 
 #list {
-    list-style-type: none;
-    margin-top:40%;
+    margin-top:25%;
     padding-left: 65%;
     font-size: 20px;
     width: 80%;
@@ -80,22 +79,29 @@
     transition: 0.3s;
 }
 
-#list a:hover{
-    color:#80DDEF;
-    transition:0.3s;
-}
-
 #samenwerking h3{
     width: 100%;
     padding-left:65%;
-    padding-top:40%;
+    padding-top:25%;
     font-weight: 600;
 
+}
+
+#links{
+    margin-top:10%;
+    padding-left: 65%;
+    font-size: 20px;
+    width: 80%;
 }
 
 #links a{
     color:white;
     text-decoration: none;
+}
+
+#links a:hover{
+    color:#80DDEF;
+    transition:0.3s;
 }
 
 /* Bureau and lines */
