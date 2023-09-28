@@ -9,11 +9,11 @@
 }
 
 header{
-    background-color: #245C81;
+    background-color: #12244f;
 }
 
 #picture img{
-    width:100px;
+    width:100%;
     height:auto;
 }
 
@@ -23,8 +23,30 @@ header{
 
 #title{
     position: absolute;
-    width: 50%;
+    margin-top: -45%;
+    width:28%;
+    padding-left: 5%;
     color:white;
     height:auto;
     font-family: "Buroto";
+}
+
+#title h2{
+    font-size: 70px;
+    transition: 0.3s;
+}
+
+#title p{
+    font-size: 20px;
+}
+
+#title h2:hover{
+    color:#80DDEF;
+    transition:0.3s;
+}
+
+#line{
+    height:5px;
+    width:100%;
+    background-color: #57d9bf;
 }
