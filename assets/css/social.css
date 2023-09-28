@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Buroto";
+    src: url(../font/BUROTO/BurotoRegular.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+#picture{
+    position: relative;
+    background: url(../img/Clownfish.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/Clownfish.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#title{
+    position: absolute;
+    width: 340px;
+    padding-left: 5%;
+    color:white;
+    height:auto;
+    font-family: "Buroto";
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    #title{
+        position: absolute;
+        width: 340px;
+        padding-left: 5%;
+        color:white;
+        height:auto;
+        font-family: "Buroto";
+    }
+    #container{
+        border: solid white;
+        height: 300px;
+        width: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 125px;
+    }
+    #content{
+        border: solid white;
+        width: auto;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .logo{
+        height: 100px;
+        width: auto;
+        margin-right: 8px;
+    }
+    .logo img{
+        height: 100px;
+    }
+    .link{
+        height: 100px;
+        width: 100px;
+        color: white;
+        font: bold;
+        font-family: "Buroto";
+        text-align: center;
+    }
+  }
