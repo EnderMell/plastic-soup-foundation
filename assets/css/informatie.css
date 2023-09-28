@@ -54,7 +54,7 @@ header h1 {
 
     header h1 {
         margin: 0;
-        margin-right: 17.5%;
+        margin-right: calc(17.5% + 10px);
     }
 
     #header-links {
