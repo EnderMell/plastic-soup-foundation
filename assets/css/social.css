@@ -38,17 +38,17 @@
         font-family: "Buroto";
     }
     #container{
-        border: solid white;
+        /* border: solid white; */
         height: 300px;
         width: auto;
-        padding-left: 5%;
+        padding-left: 7%;
         padding-right: 5%;
-        margin-top: 125px;
+        margin-top: 225px;
     }
     #content{
-        border: solid white;
+        /* border: solid white; */
         width: auto;
-        height: 200px;
+        height: 250px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -68,5 +68,16 @@
         font: bold;
         font-family: "Buroto";
         text-align: center;
+    }
+    .link a{
+        text-decoration: none;
+        color: white;
+    }
+    .link a:hover{
+        text-decoration: solid;
+        cursor: pointer;
+    }
+    .plasticsouplink{
+        margin-left: 65px;
     }
   }
