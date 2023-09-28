@@ -23,6 +23,17 @@ header {
     display: flex;
 }
 
+header h1 {
+    font-size: 42px;
+    border-bottom: 4px solid white;
+}
+
+#header-links a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
 @media screen and (min-width: 440px) {
     header {
         justify-content: end;
@@ -43,11 +54,6 @@ header {
     header h1 {
         margin: 0;
     }
-}
-
-header h1 {
-    font-size: 42px;
-    border-bottom: 4px solid white;
 }
 
 #text-container {
