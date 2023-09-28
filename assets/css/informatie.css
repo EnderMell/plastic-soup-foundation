@@ -7,6 +7,7 @@ body {
     margin: 0;
     font-family: "Buroto";
     color: white;
+    background-color: black;
 }
 
 #picture {
@@ -19,7 +20,7 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
 }
 
@@ -28,31 +29,54 @@ header h1 {
     border-bottom: 4px solid white;
 }
 
+#header-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 #header-links a {
     text-decoration: none;
     color: white;
-    border-bottom: 2px solid white;
+    font-size: 32px;
+    text-align: center;
+    margin: 0 10px;
 }
 
-@media screen and (min-width: 440px) {
+#header-links a span {
+    border-bottom: 3px solid;
+}
+
+@media screen and (min-width: 800px) {
     header {
-        justify-content: end;
+        justify-content: space-between;
     }
 
     header h1 {
         margin: 0;
-        margin-right: 17.5%;
+        margin-right: calc(17.5% + 10px);
+    }
+
+    #header-links {
+        margin-left: 17.5%;
     }
 
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 800px) {
     header {
         justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
     }
 
     header h1 {
         margin: 0;
+        width: fit-content; 
+    }
+
+    #header-links {
+        margin-top: 16px;
     }
 }
 
@@ -61,11 +85,17 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100% - 93.6px);
+    height: calc(100% - 147.2px);
 }
 
 #info-text {
     width: 65%;
     text-align: center;
     font-size: 1.5em;
+}
+
+.color-animation:hover{
+    color:#80DDEF;
+    border-color: #80DDEF;
+    transition:0.3s;
 }

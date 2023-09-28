@@ -43,7 +43,7 @@
     font-size: 20px;
 }
 
-#title h2:hover{
+.color-animation:hover{
     color:#80DDEF;
     transition:0.3s;
 }
@@ -76,11 +76,6 @@
     color: white;
     text-decoration: none;
     transition: 0.3s;
-}
-
-#list a:hover{
-    color:#80DDEF;
-    transition:0.3s;
 }
 
 #samenwerking h3{
