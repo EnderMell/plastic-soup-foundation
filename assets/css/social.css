@@ -36,30 +36,49 @@ header a{
     height: 100vh;
 }
 #container{
-    border: solid white;
-    height: 300px;
+    height: 400px;
     width: auto;
     padding-left: 7%;
     padding-right: 5%;
-    margin-top: 225px;
+    margin-top: 150px;
 }
 #content{
-    border: solid white;
-    max-width: 400px;
+    max-width: 1310px;
     width: 100%;
-    height: 250px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .logo{
-    height: 100px;
-    width: auto;
+    height: 325px;
+    width: 500px;
     margin-right: 8px;
 }
 .logo img{
+    height: 325px;
+}
+.link{
     height: 100px;
+    max-width: 320px;
+    width: 100%;
+    color: white;
+    font: bold;
+    font-family: "Buroto";
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
+.link a:hover{
+    text-decoration: solid;
+    cursor: pointer;
+} 
+.plasticsouplink{
+    max-width: 990px;
+    width: 100%;
 }
 #title{
     position: absolute;
@@ -71,7 +90,11 @@ header a{
     padding-top: 100px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 650px) {
+    
+}
+
+@media only screen and (max-width: 650px) {
     #title{
         position: absolute;
         max-width: 340px;
@@ -82,7 +105,7 @@ header a{
         font-family: "Buroto";
     }
     #container{
-        /* border: solid white; */
+        border: none;
         height: 300px;
         width: auto;
         padding-left: 7%;
@@ -90,7 +113,7 @@ header a{
         margin-top: 225px;
     }
     #content{
-        /* border: solid white; */
+        border: none; 
         max-width: 400px;
         width: 100%;
         height: 250px;
